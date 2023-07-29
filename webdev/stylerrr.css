@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+  h2{
+    font-size: 70px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  hr{
+    width: 1900px;
+    height: 5px;
+    background: #222;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+  }
+
+  .phishing{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: -90px;
+    margin-bottom: 20px;
+    text-align: left;
+    white-space: pre-line;
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ALIEN INVASION HELPDESK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="file:///E:/jquery.js"></script>
+  </head>
+  <body>
+    <nav>
+      <img class="img" src="Photos/logo.png" alt="NASA">
+      <div class="logo">NASA</div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="articles.html">Articles</a>
+        </li>
+        <li>
+          <a href="invasion.html">Alien Invasion</a>
+        </li>
+        <li>
+          <a href="radar.html">Alien Radar</a>
+        </li>
+        <li>
+          <a href="DOOM.html">Doomsday Clock</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact us</a>
+        </li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <header>ALIEN INVASION HELPDESK<header>
+      <p>If you are not aware of this current alien invasion visit the <a class="invasion" href="invasion.html">alien invasion</a> page.</p>
+    </div>
+    
+    <script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script>
+
+    
+
+  </body>
+</html>
